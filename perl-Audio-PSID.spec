@@ -8,7 +8,7 @@ Summary:	Audio::PSID Perl module - handle PlaySID files (Commodore C-64 music fi
 Summary(pl):	Modu³ Perla Audio::PSID - obs³uga plików PlaySID (muzyki z Commodore C-64)
 Name:		perl-Audio-PSID
 Version:	2.02
-Release:	1
+Release:	3
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
