@@ -32,7 +32,7 @@ Commodore C-64 z do³±czonym nag³ówkiem informacyjnym.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
