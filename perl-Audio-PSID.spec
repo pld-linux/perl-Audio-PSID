@@ -35,7 +35,8 @@ Commodore C-64 z do³±czonym nag³ówkiem informacyjnym.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor
 %{__make}
 
 %{?with_tests:%{__make} test}
@@ -52,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes PSID_v2NG.txt README
-%{perl_sitelib}/Audio/PSID.pm
+%{perl_vendorlib}/Audio/PSID.pm
 %{_mandir}/man3/*
