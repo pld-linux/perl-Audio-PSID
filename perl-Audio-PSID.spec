@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 # 
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Audio
-%define		pnam	PSID
+%define	pdir	Audio
+%define	pnam	PSID
 Summary:	Audio::PSID Perl module - handle PlaySID files (Commodore C-64 music files)
 Summary(pl):	Modu³ Perla Audio::PSID - obs³uga plików PlaySID (muzyki z Commodore C-64)
 Name:		perl-Audio-PSID
