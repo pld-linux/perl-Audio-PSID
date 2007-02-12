@@ -6,7 +6,7 @@
 %define		pdir	Audio
 %define		pnam	PSID
 Summary:	Audio::PSID Perl module - handle PlaySID files (Commodore C-64 music files)
-Summary(pl):	Modu≥ Perla Audio::PSID - obs≥uga plikÛw PlaySID (muzyki z Commodore C-64)
+Summary(pl.UTF-8):   Modu≈Ç Perla Audio::PSID - obs≈Çuga plik√≥w PlaySID (muzyki z Commodore C-64)
 Name:		perl-Audio-PSID
 Version:	2.02
 Release:	3
@@ -26,10 +26,10 @@ This module is designed to handle PlaySID files (usually bearing a
 from the Commodore C-64 computer with an additional informational
 header prepended.
 
-%description -l pl
-Ten modu≥ s≥uøy do obs≥ugi plikÛw PlaySID (zazwyczaj z rozszerzeniem
-.sid), ktÛre s± procedurami odtwarzacza i danymi przekonwertowanymi z
-Commodore C-64 z do≥±czonym nag≥Ûwkiem informacyjnym.
+%description -l pl.UTF-8
+Ten modu≈Ç s≈Çu≈ºy do obs≈Çugi plik√≥w PlaySID (zazwyczaj z rozszerzeniem
+.sid), kt√≥re sƒÖ procedurami odtwarzacza i danymi przekonwertowanymi z
+Commodore C-64 z do≈ÇƒÖczonym nag≈Ç√≥wkiem informacyjnym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
