@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-# 
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Audio
 %define		pnam	PSID
+%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::PSID Perl module - handle PlaySID files (Commodore C-64 music files)
 Summary(pl.UTF-8):	Moduł Perla Audio::PSID - obsługa plików PlaySID (muzyki z Commodore C-64)
 Name:		perl-Audio-PSID
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	cc2b5cf99af51a163c0beb1773193734
+URL:		http://search.cpan.org/dist/Audio-PSID/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
