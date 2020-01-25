@@ -4,7 +4,6 @@
 
 %define		pdir	Audio
 %define		pnam	PSID
-%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::PSID Perl module - handle PlaySID files (Commodore C-64 music files)
 Summary(pl.UTF-8):	Moduł Perla Audio::PSID - obsługa plików PlaySID (muzyki z Commodore C-64)
 Name:		perl-Audio-PSID
